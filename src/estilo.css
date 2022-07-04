@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "display";
+    src: url("fonts/Open-24-Display-St.woff");
+}
+@font-face {
+    font-family: "calculator";
+    src: url("./fonts/Calculator.woff");
+}
+.container{
+    background-color: #121212;
+    background: linear-gradient(to top, #003735, #000000);
+    color: #ffee00;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "calculator";
+}
+.container h1{
+    font-size: 150px;
+    color: rgb(220, 214, 217);
+}
+.container button{
+    border: none;
+    width: 150px;
+    height: 40px;
+    color: #343100;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 15px;
+    font-family: "calculator";
+    cursor: pointer;
+}
+.btn-zerar{
+    background-color: rgb(255, 88, 88);
+}
+.btn-iniciar{
+    background-color: #93ff62;
+}
+.container button:hover{
+    width: 155px;
+    height: 43px;
+}
