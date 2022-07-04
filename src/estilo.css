@@ -23,7 +23,12 @@
 }
 .container h1{
     font-size: 150px;
-    color: rgb(220, 214, 217);
+    color: rgb(140, 140, 140);
+    text-shadow: 2px 2px 3px rgb(0, 243, 243);
+}
+.container h1.titulo{
+    color: rgb(25, 60, 61);
+    text-shadow: 2px 2px 3px #fff;
 }
 .container button{
     border: none;
@@ -44,6 +49,5 @@
     background-color: #93ff62;
 }
 .container button:hover{
-    width: 155px;
-    height: 43px;
+    color: #fff;
 }

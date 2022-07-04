@@ -29,7 +29,7 @@ function App(){
 
   return(
     <div className='container'>
-      <h1>Cronometro</h1>
+      <h1 className='titulo'>Cronometro</h1>
       <h1>{numero.toFixed(2)}</h1>
       <div>
         <button onClick={iniciar} className='btn-iniciar'>{btn}</button>
