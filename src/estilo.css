@@ -11,9 +11,8 @@
     src: url("./fonts/Calculator.woff");
 }
 .container{
-    background-color: #121212;
-    background: linear-gradient(to top, #003735, #000000);
-    color: #ffee00;
+    width: 100%;
+    background-color: #000000;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -23,12 +22,12 @@
 }
 .container h1{
     font-size: 150px;
-    color: rgb(140, 140, 140);
-    text-shadow: 2px 2px 3px rgb(0, 243, 243);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(194, 78, 78);
 }
 .container h1.titulo{
-    color: rgb(25, 60, 61);
-    text-shadow: 2px 2px 3px #fff;
+    color: rgba(251, 255, 0, 0.446);
+    text-shadow: 2px 2px 5px rgb(221, 13, 13);
 }
 .container button{
     border: none;
@@ -48,6 +47,13 @@
 .btn-iniciar{
     background-color: #93ff62;
 }
-.container button:hover{
-    color: #fff;
+
+@media screen and (max-width: 500px){
+    .container h1{
+        font-size: 90px;
+    }
+    .botoes{
+        display: flex;
+        flex-direction: column;
+    }
 }

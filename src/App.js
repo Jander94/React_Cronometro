@@ -31,7 +31,7 @@ function App(){
     <div className='container'>
       <h1 className='titulo'>Cronometro</h1>
       <h1>{numero.toFixed(2)}</h1>
-      <div>
+      <div className='botoes'>
         <button onClick={iniciar} className='btn-iniciar'>{btn}</button>
         <button onClick={zerar} className='btn-zerar'>Zerar</button>
       </div>
